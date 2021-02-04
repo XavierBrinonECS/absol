@@ -1,15 +1,23 @@
 {
-  "dev": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-absol-dev-150545-authRole",
-      "UnauthRoleArn": "arn:aws:iam::088417944319:role/amplify-absol-dev-150545-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::088417944319:role/amplify-absol-dev-150545-authRole",
-      "Region": "eu-west-2",
-      "DeploymentBucketName": "amplify-absol-dev-150545-deployment",
-      "UnauthRoleName": "amplify-absol-dev-150545-unauthRole",
-      "StackName": "amplify-absol-dev-150545",
-      "StackId": "arn:aws:cloudformation:eu-west-2:088417944319:stack/amplify-absol-dev-150545/7643bce0-66fa-11eb-b013-06f9f3191f20",
-      "AmplifyAppId": "dr3s3mobdyjcx"
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-absol-dev-150545-authRole",
+            "UnauthRoleArn": "arn:aws:iam::088417944319:role/amplify-absol-dev-150545-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::088417944319:role/amplify-absol-dev-150545-authRole",
+            "Region": "eu-west-2",
+            "DeploymentBucketName": "amplify-absol-dev-150545-deployment",
+            "UnauthRoleName": "amplify-absol-dev-150545-unauthRole",
+            "StackName": "amplify-absol-dev-150545",
+            "StackId": "arn:aws:cloudformation:eu-west-2:088417944319:stack/amplify-absol-dev-150545/7643bce0-66fa-11eb-b013-06f9f3191f20",
+            "AmplifyAppId": "dr3s3mobdyjcx"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "dr3s3mobdyjcx",
+                    "type": "cicd"
+                }
+            }
+        }
     }
-  }
 }
